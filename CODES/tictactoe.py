@@ -50,7 +50,7 @@ def bot_move():
             return
 while True:
     print_board()
-    move = int(input("Enter position (1-9): ")) - 1
+    move = int(input("Enter position (1-9): "))
     if move < 0 or move >= 9 or board[move] != " ":
         print("Invalid move!")
         continue
